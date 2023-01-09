@@ -10,8 +10,8 @@ module.exports = {
       xl: '1440px',
     },
     backgroundImage: {
-      'marquee-desktop': "url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Exsite-Enhanced-2-Series/Exsite%20Enhanced%202%20Desktop.jpg')",
-      'marquee-mobile': "url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Exsite-Enhanced-2-Series/Exsite%20Enhanced%202%20Mobile.jpg')"
+      'marquee-desktop': "url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Espirit/Esprit%20Desktop.jpg')",
+      'marquee-mobile': "url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Espirit/Esprit%20Mobile.jpg')"
     },
     extend: {
       colors: {
