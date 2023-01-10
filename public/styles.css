@@ -762,6 +762,10 @@ html {
   pointer-events: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1117,7 +1121,7 @@ html {
 }
 
 .bg-marquee-mobile {
-  background-image: url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Espirit/Esprit%20Mobile.jpg');
+  background-image: url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Exsite-Enhanced-2-Series/Exsite%20Enhanced%202%20Mobile.jpg');
 }
 
 .bg-cover {
@@ -1303,11 +1307,6 @@ html {
   color: rgb(36 42 53 / var(--tw-text-opacity));
 }
 
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(0 114 157 / var(--tw-text-opacity));
-}
-
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1326,6 +1325,11 @@ html {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(0 114 157 / var(--tw-text-opacity));
 }
 
 .opacity-100 {
@@ -1539,6 +1543,10 @@ html {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1574,7 +1582,7 @@ html {
   }
 
   .md\:bg-marquee-desktop {
-    background-image: url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Espirit/Esprit%20Desktop.jpg');
+    background-image: url('https://3396890.fs1.hubspotusercontent-na1.net/hubfs/3396890/Pelco/Videotec/Exsite-Enhanced-2-Series/Exsite%20Enhanced%202%20Desktop.jpg');
   }
 
   .md\:px-6 {
